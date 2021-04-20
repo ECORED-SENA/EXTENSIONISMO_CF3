@@ -9,7 +9,7 @@
       .glosario__letra-item__texto
         p.mb-3(v-for="termino in letra.terminos")
           strong • {{termino.termino}}: 
-          | {{termino.significado}}
+          span(v-html="termino.significado")
 </template>
 
 <script>
@@ -26,18 +26,16 @@ export default {
   computed: {
     orderedData() {
       const sortedData = [...this.glosarioData].reduce((r, e) => {
-        const letra = e.termino[0]
+        const letra = e.termino[0].toLowerCase()
         if (!r[letra]) r[letra] = { letra, terminos: [e] }
         else r[letra].terminos.push(e)
         return r
       }, {})
       const soloLetras = Object.keys(sortedData).sort()
       const newSortedData = []
-
       soloLetras.forEach(element => {
         const letraObj = sortedData[element]
         let terminos = letraObj.terminos
-
         if (terminos.length > 1) {
           const terminosOrdenados = []
           const soloTerminos = letraObj.terminos
@@ -48,11 +46,10 @@ export default {
               terminos.find(termino => termino.termino === term),
             )
           })
-
           terminos = terminosOrdenados
         }
         newSortedData.push({
-          letra: letraObj.letra,
+          letra: letraObj.letra.toUpperCase(),
           terminos: terminos,
         })
       })
@@ -64,7 +61,6 @@ export default {
 
 <style lang="sass" scoped>
 .glosario
-
   &__letra-item
     display: flex
     &__texto
@@ -77,7 +73,6 @@ export default {
         line-height: 1em
         border-radius: 50%
         background-color: $color-sistema-d
-
         span
           position: absolute
           left: 50%
