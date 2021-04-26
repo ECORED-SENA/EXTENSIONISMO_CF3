@@ -13,31 +13,30 @@
 </template>
 
 <script>
-import { glosario } from '../config/global'
 import BannerInterno from '../components/plantilla/BannerInterno'
+
 export default {
   name: 'Glosario',
   components: {
     BannerInterno,
   },
-  data: () => ({
-    glosarioData: glosario,
-  }),
+
   computed: {
+    glosarioData() {
+      return this.$config.glosario
+    },
     orderedData() {
       const sortedData = [...this.glosarioData].reduce((r, e) => {
-        const letra = e.termino[0].toLowerCase()
+        const letra = this.quitarAcentos(e.termino[0].toLowerCase())
         if (!r[letra]) r[letra] = { letra, terminos: [e] }
         else r[letra].terminos.push(e)
         return r
       }, {})
       const soloLetras = Object.keys(sortedData).sort()
       const newSortedData = []
-
       soloLetras.forEach(element => {
         const letraObj = sortedData[element]
         let terminos = letraObj.terminos
-
         if (terminos.length > 1) {
           const terminosOrdenados = []
           const soloTerminos = letraObj.terminos
@@ -48,7 +47,6 @@ export default {
               terminos.find(termino => termino.termino === term),
             )
           })
-
           terminos = terminosOrdenados
         }
         newSortedData.push({
@@ -59,12 +57,32 @@ export default {
       return newSortedData
     },
   },
+  methods: {
+    quitarAcentos(str) {
+      const acentos = {
+        á: 'a',
+        é: 'e',
+        í: 'i',
+        ó: 'o',
+        ú: 'u',
+        Á: 'A',
+        É: 'E',
+        Í: 'I',
+        Ó: 'O',
+        Ú: 'U',
+      }
+      return str
+        .split('')
+        .map(letra => acentos[letra] || letra)
+        .join('')
+        .toString()
+    },
+  },
 }
 </script>
 
 <style lang="sass" scoped>
 .glosario
-
   &__letra-item
     display: flex
     &__texto
@@ -77,7 +95,6 @@ export default {
         line-height: 1em
         border-radius: 50%
         background-color: $color-sistema-d
-
         span
           position: absolute
           left: 50%
