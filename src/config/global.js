@@ -206,27 +206,27 @@ export const glosario = [
   {
     termino: 'Áreas funcionales',
     significado:
-      'Las áreas funcionales de la empresa son las diversas actividades más importantes de la misma, ya que por ellas se plantean y tratan de alcanzar los objetivos y metas. Generalmente una empresa está formada mínimo por cinco (5) áreas funcionales básicas (dirección, administración, ventas, producción y contabilidad y finanzas), pero puede estar formada por muchas más (investigación, recursos humanos, estrategia, etc.). <br>El número de áreas funcionales en las pequeñas empresas se simplifican y se integran unas dentro de las otras, esto ayuda a tener un mejor desempeño dentro de la empresa. <ul style="margin-left: 20px; margin-top: 20px"> <li style="margin-top: 10px;"> ●	Área de dirección: área imprescindible y considerada la cabeza de la empresa. Lleva el timón de la empresa, establece los objetivos y la dirige hacia ellos. Está relacionada con el resto de áreas funcionales, ya que es la que controla todas las áreas de trabajo de la empresa. </li>  <li style="margin-top: 10px;"> ●	Área de administración: está relacionada con el funcionamiento de la empresa. Es la operación de negocio en sentido general, desde contrataciones y pagos a personal. Por lo general es el emprendedor o empresario quien se encarga de esta área funcional. Está relacionada con otras áreas como recursos humanos. </li> <li style="margin-top: 10px;">●	Área de ventas: orientada al exterior. Aquí se plantean las estrategias que la empresa seguirá en el área del marketing, los mercados donde la empresa opera, los segmentos de mercado, el ciclo de vida de los productos, diseño de nuevos productos para la ganancia de dinero.</li><li style="margin-top: 10px;">  ●	Área de producción: aquí se lleva a cabo la producción de los bienes que la empresa comercializará después en los centros, mercados, tiendas de venta.</li><li style="margin-top: 10px;"> ●	Área de contabilidad y finanzas: reglamentario para todas las empresas, pues es obligatorio que lleven un registro contable. Tendrá en cuenta todos los movimientos de dinero, tanto dentro como fuera de la empresa, que también en algunas veces pueden estar almacenadas en bancos o en una caja fuerte.</li></ul>',
+      'las áreas funcionales de la empresa son las diversas actividades más importantes de la misma, ya que por ellas se plantean y tratan de alcanzar los objetivos y metas. Generalmente una empresa está formada mínimo por cinco (5) áreas funcionales básicas (dirección, administración, ventas, producción y contabilidad y finanzas), pero puede estar formada por muchas más (investigación, recursos humanos, estrategia, etc.). <br>El número de áreas funcionales en las pequeñas empresas se simplifican y se integran unas dentro de las otras, esto ayuda a tener un mejor desempeño dentro de la empresa. <ul style="margin-left: 20px; margin-top: 20px"> <li style="margin-top: 10px;"> ●	Área de dirección: área imprescindible y considerada la cabeza de la empresa. Lleva el timón de la empresa, establece los objetivos y la dirige hacia ellos. Está relacionada con el resto de áreas funcionales, ya que es la que controla todas las áreas de trabajo de la empresa. </li>  <li style="margin-top: 10px;"> ●	Área de administración: está relacionada con el funcionamiento de la empresa. Es la operación de negocio en sentido general, desde contrataciones y pagos a personal. Por lo general es el emprendedor o empresario quien se encarga de esta área funcional. Está relacionada con otras áreas como recursos humanos. </li> <li style="margin-top: 10px;">●	Área de ventas: orientada al exterior. Aquí se plantean las estrategias que la empresa seguirá en el área del marketing, los mercados donde la empresa opera, los segmentos de mercado, el ciclo de vida de los productos, diseño de nuevos productos para la ganancia de dinero.</li><li style="margin-top: 10px;">  ●	Área de producción: aquí se lleva a cabo la producción de los bienes que la empresa comercializará después en los centros, mercados, tiendas de venta.</li><li style="margin-top: 10px;"> ●	Área de contabilidad y finanzas: reglamentario para todas las empresas, pues es obligatorio que lleven un registro contable. Tendrá en cuenta todos los movimientos de dinero, tanto dentro como fuera de la empresa, que también en algunas veces pueden estar almacenadas en bancos o en una caja fuerte.</li></ul>',
   },
   {
     termino: 'Proceso',
     significado:
-      'Es una secuencia de pasos con algún tipo de lógica que se enfoca en lograr algún resultado específico, el cual tiene unas entradas, una transformación y unos resultados. ',
+      'es una secuencia de pasos con algún tipo de lógica que se enfoca en lograr algún resultado específico, el cual tiene unas entradas, una transformación y unos resultados. ',
   },
   {
     termino: 'Productividad',
     significado:
-      'Es la relación entre la cantidad de productos obtenida por un sistema productivo y los recursos utilizados para obtener dicha producción.',
+      'es la relación entre la cantidad de productos obtenida por un sistema productivo y los recursos utilizados para obtener dicha producción.',
   },
   {
     termino: 'Rentabilidad',
     significado:
-      'Permite comparar el resultado que se ha obtenido con el desarrollo de la actividad de la empresa con las inversiones que hemos realizado para obtener dicho resultado. Obtenemos un resultado al que todavía no hemos restado los intereses, gastos ni impuestos. Se conoce comúnmente como EBITDA.',
+      'permite comparar el resultado que se ha obtenido con el desarrollo de la actividad de la empresa con las inversiones que hemos realizado para obtener dicho resultado. Obtenemos un resultado al que todavía no hemos restado los intereses, gastos ni impuestos. Se conoce comúnmente como EBITDA.',
   },
   {
     termino: 'Tecnología',
     significado:
-      'Conjunto de conocimientos y técnicas que se aplican de manera ordenada para alcanzar un determinado objetivo o resolver un problema.',
+      'conjunto de conocimientos y técnicas que se aplican de manera ordenada para alcanzar un determinado objetivo o resolver un problema.',
   },
 ]
 

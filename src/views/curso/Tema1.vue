@@ -37,7 +37,7 @@
       .col-12.col-md-6  
         a.anexo.mt-3(:href="obtenerLink('downloads/Anexo_2_Formato_seguimiento.xlsx')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
             p Anexo. Términos de referencia - Diccionario Práctico de Extensionismo Tecnológico. 2020  
     .hr-dotted.mt-4    
