@@ -92,25 +92,25 @@ export const creditos = {
     },
     {
       nombre: 'Luis Guillermo Alvarez García',
-      cargo: 'Experta temática',
+      cargo: 'Experto temático',
       centro: 'Centro De Servicios y Gestión Empresarial',
       regional: 'Regional Antioquia',
     },
     {
       nombre: 'Alejandro Moncada Betancur',
-      cargo: 'Experta temática',
+      cargo: 'Experto temático',
       centro: 'Centro De Procesos Industriales y Construcción',
       regional: 'Regional Caldas',
     },
     {
       nombre: 'Leidy Yohana Ortiz Diaz',
-      cargo: 'Experto temático',
+      cargo: 'Experta temática',
       centro: 'Centro de la Industria, la Empresa y los Servicios',
       regional: 'Regional Norte de Santander',
     },
     {
       nombre: 'Gimena Santacruz Benítez',
-      cargo: 'Experto temático',
+      cargo: 'Experta temática',
       centro: 'Centro de la Industria, la Empresa y los Servicios Regional,',
       regional: 'Regional Huila',
     },
@@ -140,7 +140,7 @@ export const creditos = {
     },
     {
       nombre: 'Leyson Fabian Castaño Perez',
-      cargo: 'Integración de recursos y pruebas',
+      cargo: 'Soporte organizacional',
     },
     {
       nombre: [
@@ -206,7 +206,7 @@ export const glosario = [
   {
     termino: 'Áreas funcionales',
     significado:
-      'Las áreas funcionales de la empresa son las diversas actividades más importantes de la misma, ya que por ellas se plantean y tratan de alcanzar los objetivos y metas. Generalmente una empresa está formada mínimo por cinco (5) áreas funcionales básicas (dirección, administración, ventas, producción y contabilidad y finanzas), pero puede estar formada por muchas más (investigación, recursos humanos, estrategia, etc.). El número de áreas funcionales en las pequeñas empresas se simplifican y se integran unas dentro de las otras, esto ayuda a tener un mejor desempeño dentro de la empresa. <ul style="margin-left: 20px; margin-top: 20px"> <li style="margin-top: 10px;"> ●	Área de dirección: área imprescindible y considerada la cabeza de la empresa. Lleva el timón de la empresa, establece los objetivos y la dirige hacia ellos. Está relacionada con el resto de áreas funcionales, ya que es la que controla todas las áreas de trabajo de la empresa. </li>  <li style="margin-top: 10px;"> ●	Área de administración: está relacionada con el funcionamiento de la empresa. Es la operación de negocio en sentido general, desde contrataciones y pagos a personal. Por lo general es el emprendedor o empresario quien se encarga de esta área funcional. Está relacionada con otras áreas como recursos humanos. </li> <li style="margin-top: 10px;">●	Área de ventas: orientada al exterior. Aquí se plantean las estrategias que la empresa seguirá en el área del marketing, los mercados donde la empresa opera, los segmentos de mercado, el ciclo de vida de los productos, diseño de nuevos productos para la ganancia de dinero.</li><li style="margin-top: 10px;">  ●	Área de producción: aquí se lleva a cabo la producción de los bienes que la empresa comercializará después en los centros, mercados, tiendas de venta.</li><li style="margin-top: 10px;"> ●	Área de contabilidad y finanzas: reglamentario para todas las empresas, pues es obligatorio que lleven un registro contable. Tendrá en cuenta todos los movimientos de dinero, tanto dentro como fuera de la empresa, que también en algunas veces pueden estar almacenadas en bancos o en una caja fuerte.</li></ul>',
+      'Las áreas funcionales de la empresa son las diversas actividades más importantes de la misma, ya que por ellas se plantean y tratan de alcanzar los objetivos y metas. Generalmente una empresa está formada mínimo por cinco (5) áreas funcionales básicas (dirección, administración, ventas, producción y contabilidad y finanzas), pero puede estar formada por muchas más (investigación, recursos humanos, estrategia, etc.). <br>El número de áreas funcionales en las pequeñas empresas se simplifican y se integran unas dentro de las otras, esto ayuda a tener un mejor desempeño dentro de la empresa. <ul style="margin-left: 20px; margin-top: 20px"> <li style="margin-top: 10px;"> ●	Área de dirección: área imprescindible y considerada la cabeza de la empresa. Lleva el timón de la empresa, establece los objetivos y la dirige hacia ellos. Está relacionada con el resto de áreas funcionales, ya que es la que controla todas las áreas de trabajo de la empresa. </li>  <li style="margin-top: 10px;"> ●	Área de administración: está relacionada con el funcionamiento de la empresa. Es la operación de negocio en sentido general, desde contrataciones y pagos a personal. Por lo general es el emprendedor o empresario quien se encarga de esta área funcional. Está relacionada con otras áreas como recursos humanos. </li> <li style="margin-top: 10px;">●	Área de ventas: orientada al exterior. Aquí se plantean las estrategias que la empresa seguirá en el área del marketing, los mercados donde la empresa opera, los segmentos de mercado, el ciclo de vida de los productos, diseño de nuevos productos para la ganancia de dinero.</li><li style="margin-top: 10px;">  ●	Área de producción: aquí se lleva a cabo la producción de los bienes que la empresa comercializará después en los centros, mercados, tiendas de venta.</li><li style="margin-top: 10px;"> ●	Área de contabilidad y finanzas: reglamentario para todas las empresas, pues es obligatorio que lleven un registro contable. Tendrá en cuenta todos los movimientos de dinero, tanto dentro como fuera de la empresa, que también en algunas veces pueden estar almacenadas en bancos o en una caja fuerte.</li></ul>',
   },
   {
     termino: 'Proceso',
@@ -232,20 +232,9 @@ export const glosario = [
 
 export const complementario = [
   {
-    texto: 'Colombia Productiva - Fedesoft - Softwhere',
-    tipo: 'Sitio web',
-    link: 'https://www.softwhere.com.co ',
-  },
-  {
     texto:
-      'Ministerio del Interior, Ministerio Hacienda y Crédito, MAcademia de extensionismo tecnológico, (25 de septiembre de 2020). Parte 1. Semana de transferencia de conocimientos nuevos colaboradores. YouTube.',
-    tipo: 'Video',
-    link: 'https://www.youtube.com/watch?v=shhELBfknBs&t=1361s',
-  },
-  {
-    texto:
-      'Academia de extensionismo tecnológico, (25 de septiembre de 2020). Parte 2. Semana de transferencia de conocimientos nuevos colaboradores. YouTube.',
-    tipo: 'Video',
-    link: 'https://www.youtube.com/watch?v=Q1NywhRPbqQ&t=875s',
+      'Términos de referencia- Diccionario Práctico Extensionismo tecnológico. 2020',
+    tipo: 'Documento',
+    descarga: '/downloads/Anexo_2_Formato_seguimiento.xlsx',
   },
 ]

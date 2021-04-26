@@ -17,7 +17,7 @@
             span.me-1 Iniciar
             i.fas.fa-angle-right
 
-      .d-none.d-lg-block.col-lg-5.align-self-end
+      .d-none.d-lg-block.col-lg-5.align-self-center
         img(:src="globalData.imagenBannerPrincipal")
 </template>
 

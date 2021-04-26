@@ -10,37 +10,39 @@
       .h4 1.1  Correlación entre interpretación de plan de recomendaciones de plataforma SoftWhere, necesidades empresario y plan de mejora
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-12.col-md-8
-        p Tomando como partida el autodiagnóstico y las necesidades previamente validadas, se procede a revisar con el empresario el plan de mejora propuesto y sus variables, estableciendo la actual línea base o punto de partida.
+      .col-12.col-md-6
+        p El proceso consultivo busca la mejora continua de las diferentes áreas organizacionales, frente a sus procesos diarios. Dicha mejora se hace efectiva con los procesos educativos de los miembros de la organización y la validación de dicho plan frente al futuro cambiante que envuelven las decisiones organizacionales.
 
-        p.my-3 Igualmente, se corrobora con el empresario el nivel de madurez tecnológica en las dos (2) dimensiones a través de la validación (pregunta-respuesta, observación, revisión de información) y se verifica que la empresa se encuentre en un proceso de usabilidad tecnológica (existencia de tecnología, adaptación y uso estratégico de la misma en los procesos internos de la compañía) según su nivel de madurez e igualmente con las 15 variables y sus perspectivas. 
+        p.my-3 El consultor observa el entorno actual y define un plan de mejora basado en un diagnóstico previo, en el cual se define una estrategia de trabajo para la obtención de las mejoras propuestas.
 
-        p Adicionalmente, se debe incluir en esta etapa la definición de las áreas específicas en las cuales se realizará el acompañamiento por parte del programa de extensionismo y cuáles serían las capacitaciones certificadas en MinTIC y SENA que las empresas realizarán con base en su nivel de madurez. 
+        p El plan de mejora es un elemento estratégico que brinda oportunidades de fortalecimiento corporativo, además, es el paso que brinda las herramientas para priorizar el desarrollo corporativo.
 
 
-      .col-12.col-md-4
+      .col-12.col-md-6
         .imagen-titulo--izq
           figure.my-3
             img(src='@/assets/ilustraciones/img1.png', alt='Texto que describa la imagen')      
 
     .row.mt-5
       .col-12
-        .cajon--azul.p-4.mb-5.mb-lg-0
+        .cajon--azul.p-4.mb-lg-0
           p Técnicas como la lluvia o tormenta de ideas, o el grupo nominal, entre otras, buscan facilitar el análisis de las problemáticas definidas de manera estructurada, permitiendo definir actividades clave en pro de la mejora organizacional. Se busca, entonces, revisar las debilidades transversales de la organización, presentadas en el diagnóstico y definir acciones clave para sobrellevarlas. Estas acciones se definen como una lista de actividades para ser realizadas cumpliendo el objetivo clave de la consultoría.
     
-    p Dentro del análisis e interpretación se plantea que el autodiagnóstico de SoftWhere se enmarca en seis (6) áreas funcionales, las cuales permiten definir un análisis y unas actividades clave que deben ser priorizadas en el plan.
-    .hr-dotted.mt-5    
+    p.mt-5 Dentro del análisis e interpretación se plantea que el autodiagnóstico de SoftWhere se enmarca en seis (6) áreas funcionales, las cuales permiten definir un análisis y unas actividades clave que deben ser priorizadas en el plan.
+    .hr-dotted.mt-4    
     
-    .row.justify-content-center.align-items-center.mt-5
+    .row.justify-content-center.align-items-center.mt-3
       .col-12.col-md-6 
         p Para consultar más información acerca del autodiagnóstico, acceder al siguiente material complementario de libre acceso:   
       .col-12.col-md-6  
-        a.anexo.mt-3(:href="('https://drive.google.com/drive/folders/170o8xUZkVRH2v8aYx20v646T6CfmBLlg')" target="_blank")
+        a.anexo.mt-3(:href="obtenerLink('downloads/Anexo_2_Formato_seguimiento.xlsx')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Términos de referencia - Diccionario Práctico de Extensionismo Tecnológico. 2020  
-    .h6.text-center.my-5 Áreas funcionales  
+    .hr-dotted.mt-4    
+
+    .h6.text-center.my-5.color-text-1 Áreas funcionales  
     .row.justify-content-center.align-items-center.p-5.bg-1
       .col-12   
         img.img-t.img-a(src='@/assets/ilustraciones/img2.png', alt='') 
@@ -72,27 +74,27 @@
             p.mt-3 La gestión tecnológica plantea desde el diagnóstico la debilidad en sistemas de información para una correcta gestión de datos, así como la baja integración de la información que permita la toma de decisiones basada en conocimiento del negocio.
 
           div(titulo="Estrategia")
-            p es el puente entre las políticas y los objetivos definidos para el cumplimiento de las propuestas de valor enmarcadas en los modelos de negocio.
+            p Es el puente entre las políticas y los objetivos definidos para el cumplimiento de las propuestas de valor enmarcadas en los modelos de negocio.
 
             p.mt-3 Entonces, se define que la estrategia es el marco para tomar decisiones en el mercado y la estructura operativa del negocio. Las estrategias definen desde las inversiones hacia las prioridades operativas y marketing hasta contrataciones y enfoques de ventas, entre otros aspectos.
 
             p.mt-3 Frente al diagnóstico, la tecnología se convierte en un activo empresarial estratégico y un aliado para los objetivos comerciales de la organización. La estrategia plantea la gestión efectiva de la información de los clientes que permita conocer sus expectativas, mejorar su satisfacción y, por tanto, asegurar la fidelización y recompra de los productos o servicios.
 
           div(titulo="Financiera")
-            p el área financiera se enmarca en el proceso económico de la organización, determina la viabilidad económica de los modelos de negocio corporativos y su optimización frente a las diferentes variaciones del mercado.
+            p El área financiera se enmarca en el proceso económico de la organización, determina la viabilidad económica de los modelos de negocio corporativos y su optimización frente a las diferentes variaciones del mercado.
 
             p.mt-3 La organización plantea desde este concepto, un proceso de entendimiento sobre la rentabilidad y los beneficios que trae consigo el uso de soluciones tecnológicas en la organización y su influencia en la estructura financiera de la empresa.
 
     .titulo-segundo#t_1_2.mt-5
       .h4 1.2 Actividades del plan de mejora 
-    .row.justify-content-center.align-items-center.mt-5
-      .col-12.col-md-8
+    .row.justify-content-center.align-items-center
+      .col-12.col-md-7
         p Las actividades presentadas en el plan de mejora son planteadas de acuerdo con las necesidades definidas en el diagnóstico realizado. Estas necesidades determinan una ruta a desarrollar para el logro de los objetivos propuestos en el plan de mejora.
 
         p.mt-3 Dependiendo del plan de mejora se valida si la empresa se encuentra en un proceso de usabilidad tecnológica (existencia de tecnología, adaptación y uso estratégico de la misma en los procesos internos de la compañía) de acuerdo con su nivel de madurez digital y la evaluación de las áreas funcionales.
 
         p.mt-3 Es así, como las actividades presentadas en el plan de mejora están orientadas sobre áreas específicas a las cuales se les debe realizar acompañamiento por parte del programa de extensionismo. Además, se deben definir las capacitaciones certificadas en MinTIC y SENA que las empresas realizarán según su nivel de madurez y el plan de mejora definido.
-      .col-12.col-md-4
+      .col-12.col-md-5
         .imagen-titulo--izq
           figure.my-3
             img(src='@/assets/ilustraciones/img3.png', alt='Texto que describa la imagen') 
@@ -101,9 +103,9 @@
 
     .row.mt-5
       .col-12
-        .cajon--rojo.p-4.mb-5.mb-lg-0
+        .cajon--rojo.p-4.mb-lg-0
           p Las actividades definen estratégicamente el foco (área, proceso, personas) y tiempos de trabajo enmarcados en las variables del autodiagnóstico, tales como estrategia, gestión, directivos, relación con clientes, servicios postventa, clientes, operaciones, logística externa, financiera, estructura de costos, flujo de ingresos, compras, gestión de tecnología, colaboradores y sociedad civil.  
-
+    P.mt-5 Las actividades definen las variables sobre las que se implementará el plan de mejora que, en su totalidad, incluirá el autodiagnóstico previamente desarrollado, las necesidades identificadas, la línea base de indicadores seleccionados, la proyección de mejora sobre esta línea base, las actividades a desarrollar, las formaciones/capacitaciones sugeridas, el tiempo de implementación proyectado y las tecnologías planteadas para dar cumplimiento a los objetivos a alcanzar con las empresas.
     .titulo-segundo#t_1_3.mt-5
       .h4 1.3 Acompañamiento e Implementación de actividades y formato de seguimiento 
     p.mt-5 El proceso de acompañamiento en el marco de la consultoría tiene como propósito la supervisión de las actividades planteadas en el plan de mejora, definiendo un marco de control clave en la implementación organizacional.           
