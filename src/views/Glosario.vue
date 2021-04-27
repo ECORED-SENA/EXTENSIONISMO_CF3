@@ -14,17 +14,17 @@
 
 <script>
 import BannerInterno from '../components/plantilla/BannerInterno'
+import { glosario } from '../config/global'
 
 export default {
   name: 'Glosario',
   components: {
     BannerInterno,
   },
-
+  data: () => ({
+    glosarioData: glosario,
+  }),
   computed: {
-    glosarioData() {
-      return this.$config.glosario
-    },
     orderedData() {
       const sortedData = [...this.glosarioData].reduce((r, e) => {
         const letra = this.quitarAcentos(e.termino[0].toLowerCase())
