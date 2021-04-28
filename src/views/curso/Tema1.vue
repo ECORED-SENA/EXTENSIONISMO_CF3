@@ -39,7 +39,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
-            p Anexo. Términos de referencia - Diccionario Práctico de Extensionismo Tecnológico. 2020  
+            p Anexo 2 Formato seguimiento
     .hr-dotted.mt-4    
 
     .h6.text-center.my-5.color-text-1 Áreas funcionales  
