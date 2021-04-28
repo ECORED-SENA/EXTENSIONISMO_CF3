@@ -109,9 +109,9 @@
     .titulo-segundo#t_1_3.mt-5
       .h4 1.3 Acompañamiento e Implementación de actividades y formato de seguimiento 
     p.mt-5 El proceso de acompañamiento en el marco de la consultoría tiene como propósito la supervisión de las actividades planteadas en el plan de mejora, definiendo un marco de control clave en la implementación organizacional.           
-    .imagen-titulo--izq.mt-5
-      figure
-        img(src='@/assets/ilustraciones/img4.png', alt='Texto que describa la imagen')
+    figure.mt-5 
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WRl5MNqvEeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mt-5 Este proceso se propone para evitar retrasos en tiempos y temáticas que pueden desarticular el plan propuesto inicialmente.
 
     p.mt-3 Frente a la estrategia se define realizar un seguimiento cronológico del desarrollo de las actividades.
