@@ -111,7 +111,7 @@ export const creditos = {
     {
       nombre: 'Gimena Santacruz Benítez',
       cargo: 'Experta temática',
-      centro: 'Centro de la Industria, la Empresa y los Servicios Regional,',
+      centro: 'Centro de la Industria, la Empresa y los Servicios,',
       regional: 'Regional Huila',
     },
     {
