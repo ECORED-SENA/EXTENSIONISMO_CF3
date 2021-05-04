@@ -1,7 +1,7 @@
 export const global = {
   componenteFormativo: 'Acciones de mejora y su seguimiento',
   descripcionCurso:
-    'En este componente se abordará la etapa del plan de mejora donde se definen las variables sobre las que se implementará dicho plan, que incluirá, el autodiagnóstico previamente desarrollado, las necesidades identificadas, la línea base, la proyección de mejora sobre esta línea base, las actividades a desarrollar, las formaciones/capacitaciones sugeridas, el tiempo de implementación proyectado y las tecnologías planteadas para dar cumplimiento a los objetivos a alcanzar con las empresas. ',
+    'En este material se abordará la etapa del plan de mejora donde se definen las variables sobre las que se implementará dicho plan, que incluirá, el autodiagnóstico previamente desarrollado, las necesidades identificadas, la línea base, la proyección de mejora sobre esta línea base, las actividades a desarrollar, las formaciones/capacitaciones sugeridas, el tiempo de implementación proyectado y las tecnologías planteadas para dar cumplimiento a los objetivos a alcanzar con las empresas. ',
   imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
   fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
 }
@@ -37,7 +37,7 @@ export const menuPrincipal = {
           icono: 'far fa-file-alt',
           numero: '1.3',
           titulo:
-            'Acompañamiento e Implementación de actividades y formato de seguimiento',
+            'Acompañamiento e implementación de actividades y formato de seguimiento',
           hash: 't_1_3',
         },
       ],
@@ -235,6 +235,6 @@ export const complementario = [
     texto:
       'Términos de referencia- Diccionario Práctico Extensionismo tecnológico. 2020',
     tipo: 'Documento',
-    descarga: '/downloads/Anexo_2_Formato_seguimiento.xlsx',
+    descarga: '/downloads/Anexo_2_Formatos_seguimiento.xlsx',
   },
 ]

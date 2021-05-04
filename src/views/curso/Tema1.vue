@@ -107,11 +107,12 @@
           p Las actividades definen estratégicamente el foco (área, proceso, personas) y tiempos de trabajo enmarcados en las variables del autodiagnóstico, tales como estrategia, gestión, directivos, relación con clientes, servicios postventa, clientes, operaciones, logística externa, financiera, estructura de costos, flujo de ingresos, compras, gestión de tecnología, colaboradores y sociedad civil.  
     P.mt-5 Las actividades definen las variables sobre las que se implementará el plan de mejora que, en su totalidad, incluirá el autodiagnóstico previamente desarrollado, las necesidades identificadas, la línea base de indicadores seleccionados, la proyección de mejora sobre esta línea base, las actividades a desarrollar, las formaciones/capacitaciones sugeridas, el tiempo de implementación proyectado y las tecnologías planteadas para dar cumplimiento a los objetivos a alcanzar con las empresas.
     .titulo-segundo#t_1_3.mt-5
-      .h4 1.3 Acompañamiento e Implementación de actividades y formato de seguimiento 
+      .h4 1.3 Acompañamiento e implementación de actividades y formato de seguimiento 
     p.mt-5 El proceso de acompañamiento en el marco de la consultoría tiene como propósito la supervisión de las actividades planteadas en el plan de mejora, definiendo un marco de control clave en la implementación organizacional.           
-    figure.mt-5 
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/WRl5MNqvEeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .imagen-titulo--izq
+      figure
+        img(src='@/assets/ilustraciones/img4.png', alt='Texto que describa la imagen')
+
     p.mt-5 Este proceso se propone para evitar retrasos en tiempos y temáticas que pueden desarticular el plan propuesto inicialmente.
 
     p.mt-3 Frente a la estrategia se define realizar un seguimiento cronológico del desarrollo de las actividades.
