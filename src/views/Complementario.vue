@@ -6,7 +6,7 @@
       table
         thead
           tr
-            th(colspan='8' scope="col") Autor, (año del documento o material), Nombre del documento o material
+            th(colspan='8' scope="col") Nombre del documento o material
             th(colspan='2' scope="col") Tipo de material
             th(colspan='1' scope="col") Enlace
         tbody
